@@ -15,13 +15,10 @@ A blog post on Medium summarising the work can be found at the link below:
 - Libraries included in Anaconda distribution of Python 3.8.
 - Packages versions:
 
-    - pandas Version: 1.0.1
-    - numpy Version: 1.19.2
-    - matplotlib Version: 3.3.2
-    - imblearn Version: 0.0
-    - xgboost Version: 1.2.1
-    - scikit-learn Version: 0.22.1
-    - pickle5 Version: 0.0.11
+    - pandas Version: 1.2.4
+    - numpy Version: 1.20.3
+    - matplotlib Version: 3.4.2
+    - scikit-learn Version: 0.24.2
 
 ## Project Description
 
