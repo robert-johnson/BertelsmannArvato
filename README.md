@@ -1,1 +1,1 @@
-# BertelsmannArvato
+# Bertelsmann Arvato Project - Udacity
