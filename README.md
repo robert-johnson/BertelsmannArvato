@@ -44,15 +44,10 @@ The data provided is not publicly available according to Bertelsmann Arvato term
 
 The code is contained in following files:
 
-  - **Arvato_EDA.ipynb** - Jupyter Notebook that contains the EDA of the general population and customers data. Here the
-  data preprocessing steps are identified.
-  - **data_preprocessing.py** - Python script that performs data preprocessing on general population and customers data.
-  - **Arvato_Customer_Segmentation.ipynb** - Jupyter Notebook with the Customer Segmentation Report.
-  - **supervised_model_data_preprocessing.py** - Python script that performs data preprocessing on dataset for individuals
-  that were targets of a marketing campaign.
-  - **Arvato_Supervised_Model.ipynb** - Jupyter Notebook that contained a supervised learning model trained on dataset for individuals
-  that were targets of a marketing campaign and tested on the test set.
-  
+    **utils/cluster.py** - Python file with all the clustering functions defined
+    **utils/groups.py** - Python file with lists defined to aid in the filling of missing values and imputing data
+    **utils/impute.py** - Python file with Simple and KNN imputing functions
+    **utils/transform.py** - Python file with transforming of columns/rows
 
 ## Results
 
