@@ -45,10 +45,10 @@ The data provided is not publicly available according to Bertelsmann Arvato term
 
 The code is contained in following files:
 
-    **utils/cluster.py** - Python file with all the clustering functions defined
-    **utils/groups.py** - Python file with lists defined to aid in the filling of missing values and imputing data
-    **utils/impute.py** - Python file with Simple and KNN imputing functions
-    **utils/transform.py** - Python file with transforming of columns/rows
+    utils/cluster.py - Python file with all the clustering functions defined
+    utils/groups.py - Python file with lists defined to aid in the filling of missing values and imputing data
+    utils/impute.py - Python file with Simple and KNN imputing functions
+    utils/transform.py - Python file with transforming of columns/rows
     data_cleaning.py - Python file for calling the cleaning and transforming functions for data files
     learning.py - Python file for creating, tuning and testing the Classifiers
 
