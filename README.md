@@ -27,7 +27,7 @@ In this capstone project we were given information on the general German populat
 This data was provided solely for the durations of this project only and will be deleted after completion of the project
 in accordance with Bertelsmann Arvato terms and conditions.
 
-The project has 3 efforts:
+The project has 3 phases:
 
 **Customer Segmentation**
 During this part, techniques to clean, categorize, reduce dimensionality and cluster similar customers were used to correlate the general German population with the customers provided.  The outcome is the identification of features within the dataset, that correspond to target customers.
