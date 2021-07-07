@@ -19,6 +19,7 @@ A blog post on Medium summarising the work can be found at the link below:
     - numpy Version: 1.20.3
     - matplotlib Version: 3.4.2
     - scikit-learn Version: 0.24.2
+    - imbalanced-learn Version 0.8.0
 
 ## Project Description
 
@@ -48,6 +49,8 @@ The code is contained in following files:
     **utils/groups.py** - Python file with lists defined to aid in the filling of missing values and imputing data
     **utils/impute.py** - Python file with Simple and KNN imputing functions
     **utils/transform.py** - Python file with transforming of columns/rows
+    data_cleaning.py - Python file for calling the cleaning and transforming functions for data files
+    learning.py - Python file for creating, tuning and testing the Classifiers
 
 ## Results
 
