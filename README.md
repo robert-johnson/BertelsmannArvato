@@ -37,3 +37,50 @@ During this part a supervised learning machine learning model was created and tu
 
 **Kaggle Competition**
 During this part, the model was used to identify customers, and submit them to the Kaggle website for scoring.
+    
+## File Descriptions
+
+The data provided is not publicly available according to Bertelsmann Arvato terms and conditions.
+
+The code is contained in following files:
+
+  - **Arvato_EDA.ipynb** - Jupyter Notebook that contains the EDA of the general population and customers data. Here the
+  data preprocessing steps are identified.
+  - **data_preprocessing.py** - Python script that performs data preprocessing on general population and customers data.
+  - **Arvato_Customer_Segmentation.ipynb** - Jupyter Notebook with the Customer Segmentation Report.
+  - **supervised_model_data_preprocessing.py** - Python script that performs data preprocessing on dataset for individuals
+  that were targets of a marketing campaign.
+  - **Arvato_Supervised_Model.ipynb** - Jupyter Notebook that contained a supervised learning model trained on dataset for individuals
+  that were targets of a marketing campaign and tested on the test set.
+  
+
+## Results
+
+**Customer Segmentation Report**
+
+In processing the data, it is hard not to wonder if the lack of understanding of the data facilitated the mistaken inclusion or exclusion of important features.  Therefore the validity of the clusters may be questionable.  However, the clusters I was able to identify are:
+
+- Owners of higher end cars (BMW/Benz) but not between the ages of 46–60. Defined as middle aged and affluent.
+- Affluent people who own their homes, but don't save or invest their money.
+- Owners of a car who are less than 25 years old, and do not own a high end car.
+
+
+**Supervised Learning Model**
+
+I trained a GradientBoostingClassifier with a performance of ROC AUC score of 0.78308.
+
+All the code is in a public repository at the link below:
+
+https://github.com/robert-johnson/BertelsmannArvato
+
+My blog post on Medium outlining the steps I took to complete the project is located at:
+
+https://rajjr-tx.medium.com/customer-segmentation-of-bertelsmann-arvato-financial-solutions-data-udacity-capstone-860ecf2c0a3b
+
+## Licensing, Authors and Acknowledgements
+
+I would like to give credit to:
+
+- Bertelsmann Arvato Analytics for providing the data for the project.
+- Stackoverflow community for making code questions and answers publicly available.
+- Udacity Data Scientist Nanodegree Peers for their project and blog posts.
